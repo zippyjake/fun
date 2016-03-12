@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var c = require("skilstak-colors")
+
+console.log(c.clear)
+
+for (var n = 1; n <= 12; n++) {
+    console.log(n + c.multi(" badger"));
+}
