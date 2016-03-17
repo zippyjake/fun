@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import random
+from random import randrange
 import skilstak.colors as c
 import time
 
@@ -47,7 +47,13 @@ dice = [
               -------
           '''
 ]
+
+total = 0
+
 print(c.clear)
-while True:
-    question = input(' ')
-    print(c.multi(dice))
+for n in range(100):
+    rand_int = randrange(1,6)
+    print("You rolled a ", rand_int)
+    total += rand_int
+
+print("TOTAL: ", total)
