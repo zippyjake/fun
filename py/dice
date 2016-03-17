@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+
+import random
+import skilstak-colors as c
+import time
+
+dice.append(''' -------               
+        |       |
+        |   •   |
+        |       |
+         -------
+          ''')
+
+dice.append(''' -------
+        | •     |
+        |       |
+        |     • |
+         -------
+          ''')
+
+dice.append(''' -------
+        | •     |
+        |   •   |
+        |     • |
+         -------
+          ''')
+
+dice.append(''' -------
+        | •   • |
+        |       |
+        | •   • |
+         -------
+          ''')
+ 
+dice.append(''' -------
+        | •   • |
+        |   •   |
+        | •   • |
+         -------
+          ''')
+
+dice.append(''' -------
+        | •   • |
+        | •   • |
+        | •   • |
+         -------
+          ''')
+
+
