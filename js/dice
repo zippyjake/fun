@@ -4,6 +4,55 @@
 
 var c = require("skilstak-colors");
 
+var one = `
+    -------  
+   |       |
+   |   •   |
+   |       |
+    -------
+`;
+var two = `
+    ------- 
+   | •     |
+   |       |
+   |     • |
+    ------- 
+`;
+
+var three = `
+    ------- 
+   | •     |
+   |   •   |
+   |     • |
+    ------- 
+`;
+                                                                                                                                                                                                                                   
+var four = `
+    ------- 
+   | •   • |
+   |       |
+   | •   • |
+    -------
+`;
+
+var five = `
+    ------- 
+   | •   • |
+   |   •   |
+   | •   • |
+    ------- 
+`;
+
+var six = `
+    -------
+   | •   • |
+   | •   • |
+   | •   • |
+    -------
+`;
+
+var
+
 function randInt(min,max) {
   return Math.floor((Math.random() * (max - min + 1)) + min);
 }
