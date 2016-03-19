@@ -51,7 +51,7 @@ var six = `
     -------
 `;
 
-var
+var sides = [one, two, three, four, five, six]
 
 function randInt(min,max) {
   return Math.floor((Math.random() * (max - min + 1)) + min);
@@ -59,9 +59,9 @@ function randInt(min,max) {
 
 var total = 0
 for (var i = 0; i < 5; i++) {
-  var somerand = randInt(1,6);
-  console.log("You rolled a " + somerand);
-  total = total + somerand;
+  var side = randInt(0,5);
+  console.log(sides[side]);
+  total += side;
 }
 
 console.log("Total: " + total)
